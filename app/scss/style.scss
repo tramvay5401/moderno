@@ -756,9 +756,6 @@
     border: none;
     font-size: 16px;
     color: #90a4ae;
-    // &::before{
-    //   color: $green;
-    // }
     outline: none;
     &.active {
       color: $green;
@@ -786,7 +783,7 @@ button.icon-sort-amount-desc {
   .product__item {
     max-width: 270px;
     background-color: #fff;
-    transition: all .3s;
+    transition: all 0.3s;
   }
   .product__item-img {
     min-height: 180px;
@@ -831,17 +828,88 @@ button.icon-sort-amount-desc {
     align-items: center;
     background-color: #fff;
     font-size: 16px;
-    color:$bg;
+    color: $bg;
     @include f500;
-    &.active{
+    &.active {
       background-color: $red;
-      color:#fff;
+      color: #fff;
     }
   }
 }
-.product__item{
-  &.list{
+.product__item-text {
+  display: none;
+}
+.product__item-price {
+  span {
+    display: none;
+  }
+}
+
+.product__item-list {
+  display: none;
+  .icon-comment-o,
+  .icon-heart{
+    display: inline-block;
+    font-size: 12px;
+    color: #70838d;
+    padding-left: 50px;
+    border-left:1px solid #aeb4bb ;
+    position: relative;
+    span {
+      @include f500;
+      color: $bg;
+    }
+    &::before{
+      font-size: 16px;
+      color: $green;
+      position: absolute;
+      left: 20px;
+      top: 0;
+    }
+  }
+ .icon-comment-o{
+    padding-right: 30px;
+    &::before{
+      top:-2px;
+    }
+  }
+}
+.product__item {
+  &.list {
     max-width: 100%;
+    .product__item-img {
+      width: 240px;
+      float: left;
+      min-height: 100%;
+    }
+    .product__item-text {
+      display: block;
+      font-size: 14px;
+      color: #70838d;
+      margin-top: 20px;
+    }
+    .product__item-price {
+      font-size: 30px;
+      span {
+        display: block;
+        font-size: 13px;
+        color: #aeb4bb;
+        margin-top: 30px;
+      }
+    }
+    .product__item-name {
+      max-width: 480px;
+    }
+    .product__item-content {
+      padding-top: 23px;
+    }
+    .product__item-list {
+      display: block;
+    }
+    .product__item-star{
+      margin-left: auto;
+      margin-right: 30px;
+    }
   }
 }
 
