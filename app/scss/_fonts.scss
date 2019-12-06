@@ -33,6 +33,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-search:before {
+  content: "\f002";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-th-large:before {
+  content: "\f009";
+}
+.icon-th-list:before {
+  content: "\f00b";
+}
 .icon-map-marker:before {
   content: "\f041";
 }
@@ -42,15 +57,51 @@
 .icon-phone:before {
   content: "\f095";
 }
-.icon-bolt:before {
-  content: "\f0e7";
+.icon-caret-down:before {
+  content: "\f0d7";
 }
-.icon-flash:before {
-  content: "\f0e7";
+.icon-caret-up:before {
+  content: "\f0d8";
+}
+.icon-sort:before {
+  content: "\f0dc";
+}
+.icon-unsorted:before {
+  content: "\f0dc";
+}
+.icon-sort-desc:before {
+  content: "\f0dd";
+}
+.icon-sort-down:before {
+  content: "\f0dd";
+}
+.icon-sort-asc:before {
+  content: "\f0de";
+}
+.icon-sort-up:before {
+  content: "\f0de";
+}
+.icon-angle-left:before {
+  content: "\f104";
 }
 .icon-angle-right:before {
   content: "\f105";
 }
-.icon-location-arrow:before {
-  content: "\f124";
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-html5:before {
+  content: "\f13b";
+}
+.icon-sort-amount-asc:before {
+  content: "\f160";
+}
+.icon-sort-amount-desc:before {
+  content: "\f161";
+}
+.icon-wordpress:before {
+  content: "\f19a";
 }
