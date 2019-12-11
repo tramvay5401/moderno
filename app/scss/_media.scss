@@ -103,6 +103,12 @@
       color: #fff;
     }
   }
+.header__btn-menu,
+.header__btn {
+  &::before{
+    display: block;
+  }
+}
   .menu__list{
       top: 70px;
   }
