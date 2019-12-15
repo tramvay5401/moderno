@@ -428,10 +428,10 @@
   }
 }
 @media (max-width: 520px) {
-  .crat-acc{
+  .crat-acc {
     width: 100%;
   }
-  .login__wrapper button{
+  .login__wrapper button {
     margin-right: 0;
     width: 100%;
   }
@@ -506,6 +506,12 @@
   }
 }
 @media (max-width: 495px) {
+  .withdrawals__content {
+    
+    button {
+     margin-left: auto;
+    }
+  }
   .user__info {
     display: none;
   }
@@ -520,7 +526,7 @@
   }
 }
 @media (max-width: 390px) {
-  .fancybox-content{
+  .fancybox-content {
     padding: 44px 10px;
   }
   .header__box {
