@@ -76,9 +76,10 @@
 }
 
 @media (max-width: 1150px) {
+  .products__inner{}
   .products.product__item {
     flex-basis: calc(50%-30px);
-    max-width: 100%;
+    
   }
   .product__item-img {
     min-height: 225px;
@@ -176,6 +177,10 @@
   }
 }
 @media (max-width: 840px) {
+  .advantages__item {
+    max-width: 100%;
+    
+}
   .author {
     min-height: 450px;
   }
@@ -245,7 +250,20 @@
     margin-bottom: 20px;
   }
 }
+@media (max-width: 780px){
+  .tutorials {
+    padding: 35px 0 20px;
+   
+    &__item {
+      padding: 20px 15px;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
 @media (max-width: 740px) {
+
+
   .page-404__404 {
     font-size: 200px;
     line-height: 200px;
